@@ -280,8 +280,8 @@ main button:hover{
 
 
 .skills-img{
-    background: url("skills-bg.svg") no-repeat center center/cover,
-                url("section_shadowpng.png") no-repeat center center;
+    background: url("backgrounds/skills-bg.svg") no-repeat center center/cover,
+                url("backgrounds/section_shadowpng.png") no-repeat center center;
     background-size: cover, 40%;
     min-height: 370px;
     display: flex;
@@ -291,7 +291,7 @@ main button:hover{
 }
 @media (max-width: 1080px) {
     .skills-img{
-        background: url("section_shadowpng.png") no-repeat center, #000000;
+        background: url("backgrounds/section_shadowpng.png") no-repeat center, #000000;
         background-size: 40%;
         transition: background-size 0.5s ease;
     }
